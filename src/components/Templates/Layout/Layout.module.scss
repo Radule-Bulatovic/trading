@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  main {
+    position: relative;
+    flex-grow: 1;
+    @media screen and (max-width: 900px) {
+      width: calc(100% - 240px);
+    }
+  }
+}
